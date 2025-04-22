@@ -12,11 +12,11 @@ from logging.handlers import RotatingFileHandler
 import paramiko
 
 remote_to_local = {
-    "/home/techaff/NiFi Testing/sales_transaction/HOT": r"D:\etl_hyperforge\NiFi Testing\sales_transaction\HOT",
-    "/home/techaff/NiFi Testing/sales_transaction/RET": r"D:\etl_hyperforge\NiFi Testing\sales_transaction\RET",
-    "/home/techaff/NiFi Testing/sales_transaction/BSP": r"D:\etl_hyperforge\NiFi Testing\sales_transaction\BSP",
-    "/home/techaff/NiFi Testing/sales_transaction/ARC": r"D:\etl_hyperforge\NiFi Testing\sales_transaction\ARC",
-    "/home/techaff/NiFi Testing/atpco": r"D:\etl_hyperforge\NiFi Testing\atpco",
+    "/home/techaff/NiFi Testing/sales_transaction/HOT": "/home/tadevuser/nifi_testing/data/sales_transaction/HOT",
+    "/home/techaff/NiFi Testing/sales_transaction/RET": "/home/tadevuser/nifi_testing/data/sales_transaction/RET",
+    "/home/techaff/NiFi Testing/sales_transaction/BSP": "/home/tadevuser/nifi_testing/data/sales_transaction/BSP",
+    "/home/techaff/NiFi Testing/sales_transaction/ARC": "/home/tadevuser/nifi_testing/data/sales_transaction/ARC",
+    "/home/techaff/NiFi Testing/atpco": "/home/tadevuser/nifi_testing/data/atpco",
 }
 
 manifest_path = "processed_zips.json"
